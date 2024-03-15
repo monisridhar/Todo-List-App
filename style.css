@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0px 0px 20px;
+}
+
+.container{
+    width:600px;
+    box-shadow: 1px 1px 3px coral;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 106, 0);
+   
+}
+
+input[type="text"]{
+    width: 55%;
+    padding: 8px;
+    margin-left: 83px;
+    border-radius: 5px;
+    border: none;
+    border:1px solid gray;
+}
+
+button{
+    padding: 7px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color:rgb(81, 81, 245);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large; 
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#todo-list{
+    list-style-type: none;
+    padding: 3px;
+}
+
+#todo-list li{
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(244, 244, 244);
+    width: 85%;
+    margin-left: 33px;
+}
+
+.delete-btn{
+    padding: 7px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.delete-btn:hover{
+    
+    background-color:white;
+    color: black;
+}
